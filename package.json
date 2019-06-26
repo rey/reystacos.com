@@ -1,0 +1,25 @@
+{
+  "name": "reystacos.com",
+  "version": "1.0.0",
+  "description": "Chop up the soul, Kanye",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "concurrently \"http-server -p 1234 -c-1\" \"node-sass --watch --recursive assets/sass --output assets/css --output-style compact\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rey/reystacos.com.git"
+  },
+  "author": "Rey Dhuny",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/rey/reystacos.com",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.12.0"
+  }
+}
